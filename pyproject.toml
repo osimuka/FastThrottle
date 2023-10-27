@@ -1,11 +1,11 @@
 [build-system]
 requires = ["setuptools", "wheel"]
 
-[metadata]
+[project]
 name = "FastThrottle"
 version = "0.1.0"
 description = "An efficient and easy-to-integrate rate limiter for FastAPI applications."
-authors = ["Uka Osim <hsojo91@gmail.com>"]
+authors = [{ name = "Uka Osim", email = "hsojo91@gmail.com" }]
 readme = "README.md"
 repository = "https://github.com/osimuka/FastThrottle"
 classifiers = [
@@ -19,7 +19,4 @@ license-file = "LICENSE"
 [options]
 packages = ["fastthrottle"]
 python_requires = ">=3.6"
-install_requires = [
-    "fastapi",
-    "redis",
-]
+install_requires = ["fastapi", "redis"]
