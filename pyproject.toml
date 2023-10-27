@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[metadata]
+name = "FastThrottle"
+version = "0.1.0"
+description = "An efficient and easy-to-integrate rate limiter for FastAPI applications."
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+repository = "https://github.com/yourusername/FastThrottle"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-file = "LICENSE"
+
+[options]
+packages = ["fastthrottle"]
+python_requires = ">=3.6"
+install_requires = [
+    "fastapi",
+    "redis",
+]
