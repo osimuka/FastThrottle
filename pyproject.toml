@@ -5,15 +5,15 @@ requires = ["setuptools", "wheel"]
 name = "FastThrottle"
 version = "0.1.0"
 description = "An efficient and easy-to-integrate rate limiter for FastAPI applications."
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Uka Osim <hsojo91@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/yourusername/FastThrottle"
+repository = "https://github.com/osimuka/FastThrottle"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE",
     "Operating System :: OS Independent",
 ]
-license = "MIT"
+license = "GNU GENERAL PUBLIC LICENSE"
 license-file = "LICENSE"
 
 [options]
